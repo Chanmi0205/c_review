@@ -1,4 +1,4 @@
-// scanf, for¹® È°¿ëÇÏ¿© Á÷°¢»ï°¢Çü Ãâ·ÂÇÏ±â
+// scanf, forë¬¸ í™œìš©í•˜ì—¬ ì§ê°ì‚¼ê°í˜• ì¶œë ¥í•˜ê¸°
 
 #include <stdio.h>
 main ( ) {
