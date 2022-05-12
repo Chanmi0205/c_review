@@ -1,4 +1,4 @@
-// ÇÔ¼ö¸¦ È°¿ëÇÏ¿© »ï°¢ÇüÀÇ ³ĞÀÌ ±¸ÇÏ±â  
+// í•¨ìˆ˜ë¥¼ í™œìš©í•˜ì—¬ ì‚¼ê°í˜•ì˜ ë„“ì´ êµ¬í•˜ê¸°  
 
 int calculation(int bottom, int area);
 int value;
@@ -6,15 +6,15 @@ int value;
 #include <stdio.h>
 main ( ) {
 	int number1, number2;
-	printf ("»ï°¢ÇüÀÇ ¹Øº¯°ú ³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+	printf ("ì‚¼ê°í˜•ì˜ ë°‘ë³€ê³¼ ë†’ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 	scanf ("%d %d", &number1, &number2);
 	value = calculation(number1, number2);
-	printf ("»ï°¢ÇüÀÇ ³ĞÀÌ´Â %dÀÔ´Ï´Ù.", value);
+	printf ("ì‚¼ê°í˜•ì˜ ë„“ì´ëŠ” %dì…ë‹ˆë‹¤.", value);
 
 }
 
 int calculation(int bottom, int area) {
-	value = bottom * area / 2;   // ¹Øº¯ x ³ôÀÌ /(³ª´©±â) 2  
+	value = bottom * area / 2;   // ë°‘ë³€ x ë†’ì´ /(ë‚˜ëˆ„ê¸°) 2  
 	return value; 
 }
 
